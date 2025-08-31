@@ -1,0 +1,2 @@
+# __2025_08_31_chihlee_raspberry__
+致理上課用
