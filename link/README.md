@@ -16,3 +16,7 @@ https://www.youtube.com/watch?v=Wxju8bFkE0Q
 
 ---
 
+### 2025_09_14_早上
+https://www.youtube.com/watch?v=LEXD4n4orVI
+
+---
