@@ -24,6 +24,10 @@ https://www.youtube.com/watch?v=iZh7t31SR9Q
 
 ---
 
+### 2025_09_21_早上
+
+https://youtube.com/live/7_SmlDCmETM
+
 ### 2025_09_21_下午
 https://www.youtube.com/watch?v=ERfgOZ35Q0c
 

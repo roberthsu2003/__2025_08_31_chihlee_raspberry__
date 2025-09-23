@@ -1,0 +1,4 @@
+streamlit
+flask
+pymongo
+python-dotenv
