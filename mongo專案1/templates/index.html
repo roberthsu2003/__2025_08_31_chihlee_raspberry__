@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待辦事項</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>我的待辦事項</h1>
+
+        <form action="/add" method="post" class="add-todo-form">
+            <input type="text" name="title" placeholder="新增待辦事項..." required>
+            <button type="submit">新增</button>
+        </form>
+
+        <ul>
+            {% for todo in todos %}
+            <li class="{% if todo.completed %}completed{% endif %}">
+                <span>{{ todo.title }}</span>
+                <div class="todo-actions">
+                    {% if not todo.completed %}
+                    <form action="/update/{{ todo._id }}" method="post" class="complete-form">
+                        <button type="submit" class="complete-btn">完成</button>
+                    </form>
+                    {% endif %}
+                    <form action="/delete/{{ todo._id }}" method="post" class="delete-form">
+                        <button type="submit" class="delete-btn">刪除</button>
+                    </form>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <script src="{{ url_for('static', path='script.js') }}"></script>
+</body>
+</html>

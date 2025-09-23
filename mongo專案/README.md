@@ -31,8 +31,7 @@ mongo專案/
 2.  **建立並啟用虛擬環境 (使用 uv):**
 
     ```bash
-    uv venv
-    source ./.venv/bin/activate
+    source ../.venv/bin/activate
     ```
 
 3.  **安裝依賴套件:**
