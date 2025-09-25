@@ -3,7 +3,7 @@
 - 所有python套件安裝請使用`uv add 套件名稱`
 
 ## 工作目錄描述
-- 根目錄是上課用的主目錄
+- 2025_08_31_chihlee_raspberry是上課用的主目錄
 
 ## 目前次專案的工作目錄
-- mongo專案2
+- 2025_08_31_chihlee_raspberry/mongo專案

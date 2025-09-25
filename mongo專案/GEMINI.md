@@ -11,7 +11,7 @@ MONGODB_URI=mongodb://pi:raspberry@localhost:27017
 ## 使用是uv建立的虛擬環境
 
 ```
-source /.venv/bin/activate
+source ../.venv/bin/activate
 ```
 
 ## 應用程式介紹
