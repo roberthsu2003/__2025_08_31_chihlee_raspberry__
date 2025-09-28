@@ -32,3 +32,8 @@ https://youtube.com/live/7_SmlDCmETM
 https://www.youtube.com/watch?v=ERfgOZ35Q0c
 
 ---
+
+### 2025_09_28_上午
+https://www.youtube.com/watch?v=vwD4UT_mvlg
+
+---
