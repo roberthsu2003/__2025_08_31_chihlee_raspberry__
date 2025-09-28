@@ -6,4 +6,4 @@
 - 2025_08_31_chihlee_raspberry是上課用的主目錄
 
 ## 目前次專案的工作目錄
-- 2025_08_31_chihlee_raspberry/mongo專案
+- 2025_08_31_chihlee_raspberry/貪食蛇1
