@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# Distribution / packaging
+dist/
+*.egg-info/
+
+# Logs and environment variables
+*.log
+.env*
+
+# OS-specific
+.DS_Store
+Thumbs.db
