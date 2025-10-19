@@ -44,4 +44,8 @@ https://www.youtube.com/watch?v=xMP-_p1sQ6I
 ### 2025_10_19_上午
 https://www.youtube.com/watch?v=LZlr0-m-4Uo
 
+
+### 2025_10_19_下午
+https://www.youtube.com/watch?v=AJv-JJ3lgrA
+
 ---
