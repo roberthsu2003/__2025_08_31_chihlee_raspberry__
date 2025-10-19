@@ -5,6 +5,12 @@
 - 2025_08_31_chihlee_raspberry/俄羅斯方塊/
 
 ## 開發環境
-
 - uv的虛擬環境
+
+## 使用繁體中文字型
+- assets/wqy-zenhei.ttc
+
+## 主程式的位置
+
+- src/
 
