@@ -16,9 +16,9 @@ MONGODB_URI=mongodb://pi:raspberry@localhost:27017
 
 ## 使用是uv建立的虛擬環境
 
-```
-source ../.venv/bin/activate
-```
+- 虛擬環境的位置是`2025_08_31_chihlee_raspberry/.venv/`
+
+
 
 ## 應用程式介紹
 - 前端使用html,css,javascript
