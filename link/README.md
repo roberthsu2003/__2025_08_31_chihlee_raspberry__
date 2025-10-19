@@ -40,3 +40,8 @@ https://www.youtube.com/watch?v=vwD4UT_mvlg
 https://www.youtube.com/watch?v=xMP-_p1sQ6I
 
 ---
+
+### 2025_10_19_上午
+https://www.youtube.com/watch?v=LZlr0-m-4Uo
+
+---
