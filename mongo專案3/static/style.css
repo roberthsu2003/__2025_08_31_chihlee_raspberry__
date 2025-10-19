@@ -1,0 +1,135 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#todo-input:focus {
+    border-color: #007bff;
+}
+
+#add-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-btn:hover {
+    background-color: #0056b3;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-item.completed .title {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.todo-item .title {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.todo-item.editing .title {
+    display: none;
+}
+
+.edit-input {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.edit-btn,
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+    padding: 5px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    opacity: 1;
+}
+
+.edit-btn {
+    color: #007bff;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.todo-item.editing .edit-btn {
+    color: #28a745; /* Green color for Save */
+}
+
+.delete-btn {
+    color: #ff4d4d;
+    font-size: 18px;
+}
